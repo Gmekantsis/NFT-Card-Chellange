@@ -26,8 +26,8 @@ Challenge was to create pixel-perfect copy of the project from scratch.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://glitch.com/edit/#!/nft-card-review-)
-- Live Site URL: [Add live site URL here](https://nft-card-review-.glitch.me)
+- Solution URL: [solution URL](https://glitch.com/edit/#!/nft-card-review-)
+- Live Site URL: [live site URL](https://nft-card-review-.glitch.me)
 
 ## My process
 
