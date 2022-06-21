@@ -43,7 +43,19 @@ First, I assembled all the necessary components in the HTML and then I styled it
 ### What I learned
 
 ```html
-<body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://cdn.glitch.global/c317d3b3-bbb5-4289-a549-1f8262efa030/favicon-32x32.png?v=1655448374803"
+    />
+  </head>
+  <body>
     <div id="card">
       <div id="flex-container">
         <img
@@ -90,9 +102,63 @@ First, I assembled all the necessary components in the HTML and then I styled it
       </div>
     </div>
   </body>
+</html>
+
 ```
 
 ```css
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: #0d192c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eye {
+  position: absolute;
+  width: 302px;
+  height: 302px;
+  border-radius: 8px;
+  background: #00fff8;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  border-radius: 8px;
+  display: none;
+}
+
+#card {
+  position: relative;
+  background: #15263f;
+  width: 350px;
+  height: 596px;
+  border-radius: 15px;
+}
+
+.hover-image {
+  position: absolute;
+  width: 44px;
+  display: none;
+}
+
+#flex-container {
+  display: flex;
+  position: relative;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-image {
+  display: flex;
+  position: relative;
+  width: 302px;
+  height: 302px;
+  border-radius: 8px;
+}
 #flex-container:hover .eye {
   display: block;
   cursor: pointer;
@@ -101,6 +167,116 @@ First, I assembled all the necessary components in the HTML and then I styled it
   display: block;
   cursor: pointer;
 }
+
+h1 {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #00fff8;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.main-text {
+  width: 302px;
+  height: 28px;
+  display: flex;
+  margin-left: 24px;
+}
+.description-box {
+  width: 302px;
+  height: 52px;
+  display: flex;
+  margin: 24px;
+}
+.description {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 300;
+  color: #8bacd9;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.eth {
+  width: 93.48px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: 24px;
+  justify-content: center;
+}
+.eth-text {
+  width: 75px;
+  height: 20px;
+  margin: 0 auto;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #00fff8;
+}
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95.36px;
+  height: 20px;
+  margin-right: 26px;
+  margin-top: 0px;
+}
+
+.wrapper {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.time-text {
+  margin: 0 auto;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8bacd9;
+}
+hr {
+  display: flex;
+  margin-top: 24px;
+  width: 302px;
+  background: #2e405a;
+  height: 1px;
+  border-style: none;
+}
+.avatar {
+  width: 33px;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+}
+.bottom-wrapper {
+  margin-left: 24px;
+  display: flex;
+  justify-content: ;
+  align-items: center;
+}
+.creator {
+  margin-left: 16px;
+  color: #8bacd9;
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+#color-stack {
+  color: #00fff8;
+  text-decoration: none;
+}
+
 ```
 
 ## Author
