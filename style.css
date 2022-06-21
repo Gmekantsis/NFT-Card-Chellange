@@ -2,7 +2,6 @@
 
 body {
   min-height: 100vh;
-  min-width: 100vw;
   background: #0d192c;
   display: flex;
   align-items: center;
